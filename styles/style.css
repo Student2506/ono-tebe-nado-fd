@@ -1,12 +1,29 @@
 /* место для вашего кода */
-.header {}
+.header {
+  min-height: 293px;
+  padding: auto 50px;
+  background-color: #fff;
+}
 
-.cover {}
+.cover {
+  min-height: 757px;
+  margin: 0 0 180px;
+  padding: 165px 50px 50px;
+  background: url(../images/cover.jpg);
+}
 
 .description {}
 
-.lots {}
+.lots {
+  min-height: 723px;
+  margin: 0 24px 120px;
+}
 
-.about {}
+.about {
+  min-height: 595px;
+  margin: 0 24px 180px;
+}
 
-.footer {}
+.footer {
+  min-height: 180px;
+}
