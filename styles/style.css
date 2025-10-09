@@ -1,29 +1,188 @@
 /* место для вашего кода */
 .header {
-  min-height: 293px;
-  padding: auto 50px;
-  background-color: #fff;
+    min-height: 293px;
+    padding: 0 50px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 2fr min-content 1fr;
+    align-items: center;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 20px;
+    list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__links-list-item {
+    color: inherit;
+    display: block;
+}
+
+.header nav ul li.menu__item_active a {
+    border-bottom: 1px dotted #fd24af;
+    text-decoration: none;
+}
+
+.header__logo {
+    padding-right: 184px;
+    padding-left: 36px;
+}
+
+.header a img {
+    width: 130px;
+    height: 105px;
+}
+
+.address {
+    font-style: normal;
+    max-width: 240px;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.justify-end {
+    justify-self: end;
 }
 
 .cover {
-  min-height: 757px;
-  margin: 0 0 180px;
-  padding: 165px 50px 50px;
-  background: url(../images/cover.jpg);
+    min-height: 757px;
+    margin: 0 0 180px;
+    padding: 165px 50px 50px;
+    background: url(../images/cover.jpg);
+    color: #fff;
+    text-transform: uppercase;
+    background-size: 1000px 757px;
+    position: relative;
 }
 
-.description {}
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    inset: 0;
+}
+
+h1,
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cover h1 {
+    width: 100%;
+    font-size: 100px;
+    line-height: 1.15;
+    letter-spacing: 0.26em;
+    inset: 200px 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+.cover__button {
+    padding: 12px 31px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 22px;
+    display: block;
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+.cover__description {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    bottom: 50px;
+}
+
+.cover__description-text {
+    display: block;
+}
 
 .lots {
-  min-height: 723px;
-  margin: 0 24px 120px;
+    min-height: 723px;
+    margin: 0 24px 120px;
+}
+
+.lots__card-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.lots__card-list-item {
+    width: 334px;
+    min-height: 596px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-link {
+    height: 100%;
+}
+
+.card__title {
+
+}
+
+.card__text {
+  
+}
+
+.card_type_film {
+    background: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+    background: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+    background: url(../images/card-lot-03.jpg);
 }
 
 .about {
-  min-height: 595px;
-  margin: 0 24px 180px;
+    min-height: 595px;
+    margin: 0 24px 180px;
 }
 
 .footer {
-  min-height: 180px;
+    min-height: 180px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer__social li a img {
+    width: 48px;
+    height: 48px;
 }
