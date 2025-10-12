@@ -74,7 +74,8 @@
   color: #fff;
   text-transform: uppercase;
   background: url(../images/cover.jpg);
-  background-size: 1000px 757px;
+  background-size: cover;
+  background-position: center;
 }
 
 .overlay {
