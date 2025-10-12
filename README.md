@@ -1,1 +1,1 @@
-[https://github.com/Student2506/ono-tebe-nado-fd](https://github.com/Student2506/ono-tebe-nado-fd)  
+https://github.com/Student2506/ono-tebe-nado-fd
