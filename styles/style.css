@@ -165,6 +165,8 @@
   margin-bottom: 30px;
   color: white;
   list-style: none;
+  flex-basis: 33%;
+  flex-wrap: wrap;
 }
 
 .lots__card-list-item {
