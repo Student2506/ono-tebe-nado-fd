@@ -126,12 +126,13 @@
   z-index: 2;
   display: flex;
   font-size: 22px;
+  inset: 98px 0 0;
 }
 
 .cover__description-text {
   display: flex;
   word-spacing: 18.5px;
-  margin-right: 107px;
+  margin-right: 106px;
   align-items: center;
   margin-top: 3px;
 }
@@ -150,7 +151,6 @@
 }
 
 .lots {
-  min-height: 723px;
   margin: 0 24px 120px;
 }
 
@@ -279,7 +279,6 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  min-height: 180px;
   padding: 0 50px;
 }
 
