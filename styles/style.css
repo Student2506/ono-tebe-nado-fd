@@ -3,8 +3,7 @@
   display: grid;
   grid-template-columns: 1.75fr 1fr 1.05fr;
   align-items: center;
-  min-height: 293px;
-  padding: 0 50px 3px;
+  padding: 86px 51px 90px 50px;
   background-color: #fff;
 }
 
@@ -85,14 +84,14 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-h1,
-h2 {
+.h1,
+.h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.cover h1 {
+.cover .h1 {
   position: absolute;
   inset: 160px 0;
   z-index: 2;
