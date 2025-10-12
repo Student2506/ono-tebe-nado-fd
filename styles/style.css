@@ -198,10 +198,6 @@ h2 {
   z-index: 2;
 }
 
-.no-wrap {
-  white-space: nowrap;
-}
-
 .card__text {
   font-weight: 400;
   font-size: 20px;
