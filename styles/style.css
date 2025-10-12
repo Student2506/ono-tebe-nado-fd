@@ -146,6 +146,7 @@ h2 {
   font-size: 22px;
   text-transform: uppercase;
   background: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -210,20 +211,19 @@ h2 {
 
 .card_type_film {
   background: url(../images/card-lot-01.jpg);
-  background-position: center;
-  background-size: 165%;
 }
 
 .card_type_book {
   background: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: 165%;
 }
 
 .card_type_picture {
   background: url(../images/card-lot-03.jpg);
+}
+
+.card__image-center {
   background-position: center;
-  background-size: 165%;
+  background-size: cover;
 }
 
 .lots__look-more-link {
