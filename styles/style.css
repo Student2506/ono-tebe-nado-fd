@@ -9,7 +9,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 20px;
+  gap: 33px;
   list-style: circle;
   font-size: 18px;
 }
@@ -18,27 +18,15 @@
   list-style: none;
 }
 
-.header__links-list-item {
-  border-bottom: 1px dotted black;
-}
-
-.header__links-list-item:nth-of-type(2) {
-  margin-left: 11px;
-}
-
-.header__links-list-item:nth-of-type(3) {
-  margin-left: 16px;
-}
-
 .header__link {
   display: block;
   color: inherit;
   text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 .header__link_active {
-  border-bottom: 1px dotted transparent;
-  text-decoration: none;
+  border-bottom: unset;
 }
 
 .header__logo {
@@ -59,7 +47,7 @@
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  line-height: 1.32;
+  line-height: 1.3;
   margin-right: 2px;
 }
 
@@ -76,7 +64,7 @@
   position: relative;
   min-height: 757px;
   margin: 0 0 180px;
-  padding: 160px 50px 50px;
+  padding: 160px 0 50px 50px;
   color: #fff;
   text-transform: uppercase;
   background: url(../images/cover.jpg);
@@ -91,14 +79,13 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.h1,
-.h2 {
+.title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.cover .h1 {
+.cover .title {
   position: relative;
   z-index: 2;
   width: 100%;
@@ -118,14 +105,15 @@
 
 .text-center {
   text-align: center;
-  padding-left: 30px;
+  padding-right: 20px;
 }
 
 .text-right {
   text-align: right;
-  padding-left: 615px;
   letter-spacing: 30px;
+  padding-right: 20px;
 }
+
 .cover__description {
   position: relative;
   bottom: 50px;
@@ -193,6 +181,7 @@
 
 .card-link {
   height: 100%;
+  text-decoration: none;
 }
 
 .card__title {
@@ -258,7 +247,7 @@
 .about__logo-image {
   width: 220px;
   margin: auto;
-  padding-right: 35px;
+  padding: 35px;
 }
 
 .about__title {
@@ -284,7 +273,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 50px;
+  padding: 0 50px 82px;
 }
 
 .footer__menu {
