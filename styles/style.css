@@ -18,19 +18,15 @@
   list-style: none;
 }
 
-.header__links-list-item {
-  border-bottom: 1px dotted black;
-}
-
 .header__link {
   display: block;
   color: inherit;
   text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 .header__link_active {
-  border-bottom: 1px dotted transparent;
-  text-decoration: none;
+  border-bottom: unset;
 }
 
 .header__logo {
@@ -51,7 +47,7 @@
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  line-height: 1.32;
+  line-height: 1.3;
   margin-right: 2px;
 }
 
@@ -251,7 +247,7 @@
 .about__logo-image {
   width: 220px;
   margin: auto;
-  padding-right: 35px;
+  padding: 35px;
 }
 
 .about__title {
