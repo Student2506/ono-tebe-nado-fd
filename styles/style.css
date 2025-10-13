@@ -91,14 +91,13 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.h1,
-.h2 {
+.cover__title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.cover .h1 {
+.cover .cover__title {
   position: relative;
   z-index: 2;
   width: 100%;
@@ -161,6 +160,9 @@
 }
 
 .lots__heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
   margin-bottom: 27px;
   margin-left: 40px;
   font-size: 40px;
